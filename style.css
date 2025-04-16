@@ -1,0 +1,144 @@
+*{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+body{
+    background-color: #F0EDF2 !important;
+    
+}
+.lista{
+    text-align: center;
+    display: flex;
+    padding: 6rem;
+    color: #479C6E;
+    font-weight: 800;
+    display: flex;
+    justify-content: center; /* centraliza horizontalmente */
+    align-items: flex-start; /* alinha ao topo */
+    padding-top: 40px; /* espaçamento do topo */
+    background-color: #e8e4ec; /* só um exemplo */
+    box-sizing: border-box;
+}
+.spanDo{
+    color: #9359F3;
+    font-weight: 800;
+}
+.container1{
+    background-color: #E0DCE4;
+    flex-wrap: wrap;
+    position: relative;
+    max-width: 100%;
+    min-width: 100%;
+
+
+}
+.container2{
+    width: 100%;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 90vw;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    box-sizing: border-box;
+    
+    
+    
+}
+#entradaTarefa{
+    width: 100%;
+    max-width: 40rem;
+    height: 3rem;
+    border-radius: 10px;
+    border-style: double;
+    border-color: #E0DCE4;
+    background-color:  #F0EDF2;
+    padding-left: 20px;
+    padding-bottom: 4px;
+    box-sizing: border-box;
+    
+    
+}
+#entradaTarefa::placeholder{
+    color: rgba(2, 2, 2, 0.384);
+}
+
+.botao{
+    background-color: rgb(118, 42, 189);
+    color: #ffff;
+    border-radius: 10px;
+    width: 7rem;
+    height: 3rem;
+    border-style: none;
+    
+    
+}
+.container3{
+    max-width: 760px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto;
+    padding: 10px 10px;
+    padding-top: 100px;
+    text-align: center;
+    box-sizing: border-box;
+    
+
+}
+.titulo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.linha{
+    width: 100%;
+    height: 1px;
+
+    background-color: #E0DCE4;
+}
+.quantidade{
+    border-radius: 10px;
+    background-color: #BFE3D0;
+    color: #2D6C4A;
+    padding: 1px 9px ;
+
+}
+.quantidade-2{
+    border-radius: 10px;
+    background-color: #DDD2EF;
+    color: #6F3CC3;
+    padding: 1px 10px ;
+}
+#exibicaoTexto{
+    margin-top: 20px;
+ 
+     
+}
+.mensagem {
+    margin-bottom: 10px;
+    display: flex;
+    text-align: left;
+    padding: 20px;
+    padding-left: 50px;
+    border: 2px solid #D1CBD7; /* Cor da borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    background-color: #E0DCE4; /* Cor de fundo da mensagem */
+    font-size: 18px; /* Tamanho da fonte */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+@media (max-width: 768px) {
+    .container2 {
+      flex-direction: column;
+    }
+}
