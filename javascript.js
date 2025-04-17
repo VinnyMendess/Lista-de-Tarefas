@@ -54,6 +54,8 @@ function mostraTexto(){
 
     contador++;
     atualizaContador();
+
+    document.getElementById('entradaTarefa').value = "";
   
   }
 }
