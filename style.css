@@ -128,13 +128,40 @@ body{
     margin-bottom: 10px;
     display: flex;
     text-align: left;
+    justify-content: space-between;
     padding: 20px;
-    padding-left: 50px;
-    border: 2px solid #D1CBD7; /* Cor da borda */
-    border-radius: 5px; /* Bordas arredondadas */
-    background-color: #E0DCE4; /* Cor de fundo da mensagem */
-    font-size: 18px; /* Tamanho da fonte */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding-left: 20px;
+    border: 2px solid #D1CBD7;
+    border-radius: 5px; 
+    background-color: #E0DCE4; 
+    font-size: 18px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding-right: 30px;
+    gap: 20px;
+    word-break: break-word;
+    
+}
+.mensagem span {
+    flex-grow: 1;
+}
+
+.lixeira:hover{
+    color: rgb(170, 20, 20);
+    cursor: pointer;
+}
+.caixaStatus{
+    display: flex;
+    min-width: 20px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #D1CBD7;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.caixaStatus.ativo {
+    background-color: #2ca765;
 }
 
 @media (max-width: 768px) {
