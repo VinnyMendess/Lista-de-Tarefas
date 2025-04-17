@@ -39,8 +39,11 @@ function mostraTexto(){
       novaMensage.remove();
       contador--;
       atualizaContador();
-      contadorConcluido--;
-      atualizaContadorConcluido();
+      if (caixaStatus.classList.toggle('ativo')) {
+        contadorConcluido--;
+        atualizaContadorConcluido();
+      }
+      
     }
 
     
